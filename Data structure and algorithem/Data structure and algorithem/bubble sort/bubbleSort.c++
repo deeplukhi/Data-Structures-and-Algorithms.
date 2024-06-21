@@ -12,7 +12,7 @@ void bubbleSort(vector<int>& arr, int n) {
             }
         }
         
-        if (swapped == false) {
+        if(swapped == false) {
             break;
         }
     }
