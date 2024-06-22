@@ -9,7 +9,8 @@ bool canWePlace(vector<int> &stalls, int k, int mid) {
         if (stalls[i] - lastPosition >= mid) {
             lastPosition = stalls[i];
             cowCount++;
-            if (cowCount == k) return true;
+            if (cowCount == k) 
+            return true;
         }
     }
     return false;
