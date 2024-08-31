@@ -13,4 +13,4 @@ int main(){
     int even[8] = {2,3,4,5,6,7,7,8};
     findUnique(even,8);
     cout << findUnique << endl;
-}
+} 
