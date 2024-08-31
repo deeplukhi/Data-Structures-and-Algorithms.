@@ -13,7 +13,7 @@ bool canWePlace(vector<int> &stalls, int k, int mid) {
             return true;
         }
     }
-    return false;
+    return false; 
 }
 
 // Function to find the largest minimum distance between cows placed in the stalls
