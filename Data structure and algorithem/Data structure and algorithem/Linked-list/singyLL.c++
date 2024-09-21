@@ -19,7 +19,7 @@ public:
             delete next;
             next = NULL;
         }
-        
+        cout << "memory is free now :) " << endl;
     }
 };
 
